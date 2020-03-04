@@ -1,0 +1,122 @@
+[2020-02-12 11:02:38] glpiphplog.WARNING: Test logger  
+[2020-02-12 11:03:39] glpiphplog.WARNING: Test logger  
+[2020-02-12 11:10:20] glpiphplog.DEBUG: Html::compileScss() in C:\wamp64\www\glpi\inc\html.class.php line 6828
+css/styles is new, loading  {"user":"@DESKTOP-JKQTNLJ"} 
+[2020-02-12 11:10:20] glpiphplog.DEBUG: Html::compileScss() in C:\wamp64\www\glpi\inc\html.class.php line 6828
+css/palettes/auror is new, loading  {"user":"@DESKTOP-JKQTNLJ","mem_usage":"0.027\", 1.25Mio)"} 
+[2020-02-13 10:44:17] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:44:48] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:44:54] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:46:09] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:46:18] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:46:26] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:48:42] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:48:43] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:49:55] glpiphplog.ERROR: Plugin::getInfo() in C:\wamp64\www\glpi\inc\plugin.class.php line 1238
+plugin_version_glpi-modifications-master method must be defined!  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:58:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/script.js,C:\wamp64\www\glpi/script.js.bak): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:34                         rename()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-13 10:58:11] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/pics/logo-glpi-login.png,C:\wamp64\www\glpi/pics/logo-glpi-login.png.bak): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:47                         rename()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"1.270\", 1.52Mio)"} 
+[2020-02-13 10:58:11] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mkdir(): File exists
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:11                         mkdir()
+  plugins\mod\install.php:50                         recurse_copy()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"0.003\", 1.52Mio)"} 
+[2020-02-17 09:29:19] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/plugins/mod/scripts/ind.js.bak,C:\wamp64\www\glpi/plugins/mod/scripts/ind.js): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\config.php:52                          rename()
+  plugins\mod\config.php:142                         indOn()
+  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-17 09:29:21] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/plugins/mod/scripts/stats.js.bak,C:\wamp64\www\glpi/plugins/mod/scripts/stats.js): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\config.php:43                          rename()
+  plugins\mod\config.php:165                         staOn()
+  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-19 10:24:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/script.js.bak,C:\wamp64\www\glpi/script.js): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\uninstall.php:18                       rename()
+  plugins\mod\hook.php:11                            include()
+  inc\plugin.class.php:468                           plugin_mod_uninstall()
+  front\plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-19 10:24:58] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/pics/logo-glpi-login.png.bak,C:\wamp64\www\glpi/pics/logo-glpi-login.png): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\uninstall.php:38                       rename()
+  plugins\mod\hook.php:11                            include()
+  inc\plugin.class.php:468                           plugin_mod_uninstall()
+  front\plugin.form.php:47                           Plugin->uninstall()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"1.299\", 3.29Mio)"} 
+[2020-02-19 10:25:48] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/script.js,C:\wamp64\www\glpi/script.js.bak): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:34                         rename()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ"} 
+[2020-02-19 10:25:50] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mkdir(): File exists
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:11                         mkdir()
+  plugins\mod\install.php:42                         recurse_copy()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"1.675\", 3.17Mio)"} 
+[2020-02-19 10:25:50] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): rename(C:\wamp64\www\glpi/pics/logo-glpi-login.png,C:\wamp64\www\glpi/pics/logo-glpi-login.png.bak): El sistema no puede encontrar el archivo especificado. (code: 2)
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:47                         rename()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"0.262\", 3.17Mio)"} 
+[2020-02-19 10:25:50] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\wamp64\www\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mkdir(): File exists
+  Backtrace :
+  :                                                  
+  plugins\mod\install.php:11                         mkdir()
+  plugins\mod\install.php:50                         recurse_copy()
+  plugins\mod\hook.php:5                             include()
+  inc\plugin.class.php:521                           plugin_mod_install()
+  front\plugin.form.php:47                           Plugin->install()
+  {"user":"2@DESKTOP-JKQTNLJ","mem_usage":"0.010\", 3.17Mio)"} 

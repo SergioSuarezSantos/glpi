@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Environment Development Team
+# This file is distributed under the same license as the GLPI - Environment plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI - Environment plugin 1.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-25 10:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: setup.php:60 inc/display.class.php:49 inc/profile.class.php:175
+msgid "Environment"
+msgstr ""
+
+#: inc/display.class.php:86 inc/display.class.php:87
+msgid "Encryption key"
+msgid_plural "Encryption keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/display.class.php:198 inc/display.class.php:214
+#: inc/display.class.php:234 inc/profile.class.php:179
+msgid "Appliances"
+msgstr ""
+
+#: inc/display.class.php:227 inc/display.class.php:277
+#: inc/display.class.php:366 inc/display.class.php:368
+#: inc/display.class.php:371 inc/display.class.php:436
+#: inc/display.class.php:487 inc/display.class.php:539
+msgid "Without type"
+msgstr ""
+
+#: inc/display.class.php:249 inc/display.class.php:264
+#: inc/display.class.php:284 inc/profile.class.php:183
+msgid "Web applications"
+msgstr ""
+
+#: inc/display.class.php:299 inc/display.class.php:345
+#: inc/display.class.php:392 inc/profile.class.php:187
+msgid "Accounts"
+msgstr ""
+
+#: inc/display.class.php:407 inc/display.class.php:423
+#: inc/display.class.php:443 inc/profile.class.php:191
+msgid "Domains"
+msgstr ""
+
+#: inc/display.class.php:458 inc/display.class.php:474
+#: inc/display.class.php:494 inc/profile.class.php:195
+msgid "Databases"
+msgstr ""
+
+#: inc/display.class.php:509 inc/display.class.php:526
+#: inc/display.class.php:546 inc/profile.class.php:199
+msgid "Badges"
+msgstr ""
